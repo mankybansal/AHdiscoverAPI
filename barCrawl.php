@@ -1,6 +1,15 @@
 <?php
 
 
+function apiValidate($apiKey)
+{
+    if ($apiKey == "fUJxtW62tresIB7m")
+        return true;
+    else
+        return false;
+}
+
+
 class response
 {
     private $httpCode;
