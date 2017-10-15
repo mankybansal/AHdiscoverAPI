@@ -34,4 +34,20 @@ class response
     }
 }
 
+function getBars($lat, $lon){
+
+}
+
+function getUser($userID){
+
+}
+
+function transaction($userID, $itemID, $quantity){
+
+}
+
+function addCardInfo($name, $ccNumber, $expiryDate, $cvv, $zip){
+
+}
+
 ?>
